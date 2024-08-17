@@ -1,9 +1,6 @@
 
 import './BoxInteractive.css'
 import Img3 from '/assets/images/3.png'
-// import Iconreply from '../../assets/images/icon-reply.svg'
-// import Plus from '../../assets/images/icon-plus.svg'
-// import minus from '../../assets/images/icon-minus.svg'
 import BoxInteractiveItem from '../BoxInteractiveItem/BoxInteractiveItem'
 import NewPost from '../NewPost/NewPost'
 import { useState, useRef } from 'react'
@@ -71,46 +68,6 @@ function BoxInteractive() {
     ]);
 
 
-    // const [deletemodel, setDeletemodel] = useState({
-    //     message: "",
-    //     isLoading: false,
-    // });
-
-    // const idArray = useRef()
-    // const handledeletemodel = (message, isLoading) => {
-    //     setDeletemodel({
-    //         message,
-    //         isLoading,
-    //     })
-    // }
-
-    // //Delete Button
-    // function HandleDelete(id) {
-    //     handledeletemodel("Are you sure you want to delete this comment? This will remove the comment and can't be undone.", true)
-    //     //     // setDeletemodel({
-        //     //     message:"Are you sure you want to delete this comment? This will remove the comment and can't be undone.",
-        //     //     isLoading: true,
-        //     // })
-        // idArray.current = id
-        //  props.deleteItem(event.target.getAttribute("uniqueid"));
-
-    // }
-
-
-    // function youwantdelete(choose) {
-    //     if (choose) {
-    //         setArray(Array.filter(p => p.id !== idArray.current));
-    //         handledeletemodel("", false)
-            // setDeletemodel({
-            //     message:"Are you sure you want to delete this comment? This will remove the comment and can't be undone.",
-            //     isLoading: true,
-            // });
-    //     } else {
-    //         handledeletemodel("", false)
-
-    //     }
-
-    // }
 
 
 
@@ -147,7 +104,7 @@ function BoxInteractive() {
     }
 
     function addNewcomment(commentcontent, id) {
-        // console.log(commentcontent,id)
+      
         let myOldPost = Array.filter((post) => post.id == id)[0]
         let oldCommentCount = myOldPost.comments.length;
 

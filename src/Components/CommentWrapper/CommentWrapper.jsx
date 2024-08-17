@@ -19,8 +19,6 @@ function CommentWrapper(props) {
           updateComment={props.updateComment}
           likes={props.likes}
           createdAt={props.createdAt}
-          // uniqueid={props.id}
-        
           >
 
           </Comment>

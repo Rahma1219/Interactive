@@ -12,10 +12,6 @@ function App() {
   return (
     <div id='main '>
     <BoxInteractive></BoxInteractive>
-
-
-
-    
       </div>
   )
 }

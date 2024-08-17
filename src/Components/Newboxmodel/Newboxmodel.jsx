@@ -2,21 +2,6 @@ import'./Newboxmodel.css'
 
 function Newboxmodel(props) {
 
-
-    // function cancelDelete()  {
-    //     setDeleting(false);
-    //     setDeleteModalState(false);
-    //   };
-    
-    //   function deleteBtnClick() {
-    //     deleteComment();
-    //     setDeleteModalState(false);
-    //   };
-    // function handledelete2(event){
-    //   props.deleteItem(event.target.getAttribute("UniqueID"))
-    // }
-
-
     return (
         <div id='bgg'>
             <div className='deletemodel'>
@@ -44,7 +29,6 @@ function Newboxmodel(props) {
             </div>
 
         </div>
-        // Are you sure you want to delete this comment? This will remove the comment and can't be undone.
 
     )
 
