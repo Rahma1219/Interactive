@@ -1,0 +1,183 @@
+.Boxs {
+
+    padding: 10px;
+    /* text-align: center; */
+
+}
+
+#mention {
+    color: hsl(238, 40%, 52%);
+    font-weight: bolder;
+}
+
+#title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#name {
+    flex-grow: 1;
+
+}
+
+#h {
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+#s {
+    display: inline-block;
+    color: gray;
+}
+
+
+.Box {
+    display: flex;
+    /* align-items: flex-start; */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 650px;
+    display: grid;
+    grid-template-columns: 50px auto;
+    border: 1px gainsboro;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .counter .b {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        bottom: 20px;
+        width: 90px;
+
+    }
+
+    .b #btn {
+
+        width: 38px;
+        display: flex;
+        align-items: center;
+    }
+
+    .Box {
+        position: relative;
+        display: grid;
+        grid-template-columns: 0 auto;
+        padding: 30px;
+
+
+    }
+
+    .Reply {
+        position: absolute;
+        bottom: 25px;
+        right: 10px;
+    }
+
+    .DeleteBtns {
+        position: absolute;
+        bottom: 25px;
+        right: 90px;
+
+
+    }
+
+    #para1 {
+        margin-bottom: 50px;
+
+    }
+
+
+}
+
+
+
+#img {
+    width: 30px;
+    height: 30px;
+}
+
+#para1 {
+    color: grey;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 22px;
+
+}
+
+.Reply {
+    font-weight: bold;
+    color: hsl(238, 40%, 52%);
+    text-decoration: none;
+    gap: 5px;
+    display: flex;
+
+}
+
+p {
+    margin: 0;
+}
+
+#btn {
+    padding: 0;
+    margin: 0;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    height: 35px;
+
+
+}
+
+.b #count {
+    color: hsl(238, 40%, 52%);
+    font-weight: 700;
+}
+
+.b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsla(223, 19%, 93%);
+    border: 1px #e0e0e0;
+    border-radius: 10px;
+    width: 35px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.DeleteBtns {
+    border: none;
+    color: red;
+    background: transparent;
+    font-weight: bold;
+    cursor: pointer;
+
+
+
+}
+
+#icond {
+    padding: 0 5px;
+}
+
+#you {
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+
+}

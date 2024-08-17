@@ -1,0 +1,94 @@
+#bgg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.221);
+    z-index: 999;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.deletemodel h3 {
+    font-weight: bold;
+    margin-right: 130px;
+
+}
+
+.deletemodel {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: "translate(-50%,-50%)"; */
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    padding: 40px 20px 0 20px;
+    border-radius: 10px;
+
+
+
+}
+
+#textdeletemes {
+    color: grey;
+    padding: 0 10px;
+}
+
+#btn2 button {
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+
+}
+
+#deletebtn1 {
+    background-color: hsl(358, 79%, 66%);
+    /* opacity: 70%; */
+}
+
+#cancelbtn {
+    background-color: rgb(128, 128, 128);
+    /* opacity: 70%; */
+}
+
+@media only screen and (max-width: 800px) {
+    #bgg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .deletemodel {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        max-width: 280px;
+        height: 180px;
+        padding: 20px 20px 20px 20px;
+
+
+    }
+
+}

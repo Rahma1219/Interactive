@@ -1,0 +1,40 @@
+#sendpost2{
+    justify-content: center;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin:20px 0px 0px 50px;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px gainsboro;
+    animation-name: comment;
+    animation-duration: 1s;
+ 
+} 
+
+@keyframes comment{
+    from{
+        
+        margin:20px 0px 0px 0px;
+    }
+    to{
+        margin:20px 0px 0px 50px;
+    }
+
+}
+ #comment2{
+    border: 1px solid rgba(128, 128, 128, 0.29) ;
+    width: 80%;
+    border-radius: 5px;
+    height: 90px;
+    
+ }
+
+#imgcomment{
+    width: 35px;
+    height: 35px;
+    padding: 0 15px;
+   
+}
+

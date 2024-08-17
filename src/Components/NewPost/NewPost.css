@@ -1,0 +1,55 @@
+#sendpost{
+justify-content: center;
+display: flex;
+background-color: #ffffff;
+border-radius: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+max-width: 700px;
+padding: 20px;
+border: 1px gainsboro;
+
+
+} 
+
+#comment{
+    border: 1px solid rgba(128, 128, 128, 0.29) ;
+    width: 80%;
+    border-radius: 5px;
+    height: 70px;
+
+}
+
+::placeholder{
+    padding: 0 0 0 10px;
+    display: flex;
+  
+}
+
+#btnsend{
+    background-color: hsl(238, 40%, 52%) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+     margin:0 10px;
+     padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 35px;
+    width: 80px;
+
+    
+
+}
+#btnsend:hover{
+    background-color: hsl(238, 36%, 35%) ;
+
+}
+#img2{
+  width: 35px;
+  height: 35px;
+  padding: 0 15px;
+ 
+}
+
+

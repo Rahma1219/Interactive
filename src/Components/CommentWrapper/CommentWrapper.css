@@ -1,0 +1,33 @@
+.commentwrapper{
+    display: flex;
+    justify-content: center;
+    display: block;
+    
+
+   
+   
+}
+
+
+
+/* @media only screen and (max-width: 600px){
+    #newcomment{
+        display: grid;
+        grid-template-rows: auto auto;
+    
+    }
+} */
+
+
+
+
+/* #commentedit{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+
+} */
+
+

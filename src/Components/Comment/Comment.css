@@ -1,0 +1,181 @@
+#newcomment {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0 0 50px;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px gainsboro;
+    animation-name: comment;
+    animation-duration: 1s;
+    display: grid;
+    grid-template-columns: 50px auto;
+
+}
+
+
+
+#time {
+    color: gray;
+}
+
+
+@keyframes comment {
+    from {
+
+        margin: 20px 0px 0px 0px;
+    }
+
+    to {
+        margin: 20px 0px 0px 50px;
+    }
+
+}
+
+#commentinput {
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+
+
+}
+#textarea{
+    padding: 10px;
+}
+
+/* #btnn{
+    display: flex;
+    align-items: center;
+   
+  
+} */
+
+#name1 {
+
+    flex-grow: 1;
+    margin-left: 10px;
+
+}
+
+#deletebtn {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-weight: 700;
+    cursor: pointer;
+
+
+}
+
+
+#editbtn {
+    background-color: transparent;
+    border: none;
+    color: hsl(238, 40%, 52%);
+    font-weight: bold;
+    cursor: pointer;
+  
+
+
+}
+
+/* #icond {
+    padding: 0 5px;
+} */
+
+#btnupdate {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: hsl(238, 40%, 52%);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    float: right;
+
+
+
+}
+
+
+#title1 {
+
+    display: flex;
+    justify-content: space-between;
+
+  
+    gap: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+    #editbtn {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+
+    }
+
+    #deletebtn {
+        position: absolute;
+        bottom: 10px;
+        right: 70px;
+
+    }
+
+    #commentinput {
+        position: relative;
+        height: 50px;
+    }
+
+    #title1 {
+        margin: 0 0 10px 0;
+    }
+
+    textarea {
+        padding: 20px;
+    }
+
+    #newcomment {
+        position: relative;
+        display: grid;
+        grid-template-columns: 0px auto;
+        grid-template-rows: 100px 100px;
+    }
+    #newcomment {
+        margin: 20px 0 0 30px;
+      
+        max-width: 400px;
+     
+        animation-name: comment;
+        animation-duration: 1s;
+
+    
+    }
+    #sendpost2{
+        margin: 20px 0 0 30px;
+    }
+    @keyframes comment {
+        from {
+    
+            margin: 20px 0px 0px 0px;
+        }
+    
+        to {
+            margin: 20px 0px 0px 30px;
+        }
+    
+    }
+    #title1 {
+     display: grid;
+    grid-template-columns: auto auto;
+     
+    }
+
+
+}

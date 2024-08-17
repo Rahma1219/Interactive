@@ -1,0 +1,56 @@
+{
+    "posts":[
+        {
+            "ProfileImg": "/src/assets/images/1.png",
+            "UserName": "amyrobson",
+            "Date": "1 month ago",
+            "Text": "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well",
+            "id": 1,
+            "likes": 0,
+            "createdAt":"Just now",
+            "comments": []
+
+        },
+
+        {
+            "ProfileImg": "/src/assets/images/3.png",
+            "UserName": "maxblagun",
+            "createdAt":"Just now",
+            "Date": "2 week ago",
+            "Text": "Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!",
+            "id": 2,
+            "likes": 0,
+            "comments": []
+
+
+        },
+
+        {
+
+            "ProfileImg": "/src/assets/images/4.png",
+            "UserName": "ramsesmiron",
+            "Date": "1 week ag'",
+            "Text": "If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before consid ering React. It's very tempting to jump ahead but lay a solid foundation first.",
+            "id": 3,
+            "likes": 0,
+            "class":"item1",
+            "Mention":"@ramsesmiron",
+            "createdAt":"Just now",
+            "comments": []
+
+        },
+
+        {
+
+            "ProfileImg": "/src/assets/images/2.png",
+            "UserName": "juliusomo",
+            "Date": "1 days ago",
+            "Text": "I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.",
+            "likes": 0,
+            "class":"item2",
+            "Mention":"@juliusomo",
+            "createdAt":"Just now",
+            "comments": []
+        }
+    ]
+}

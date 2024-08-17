@@ -1,0 +1,32 @@
+
+.item1{
+    position: relative;
+    margin-left: 70px;
+    max-width: 620px;
+} 
+
+.item1::before{
+    content: "";
+    background-color: rgba(173, 170, 170, 0.425);
+    position: absolute;
+    min-height: 100%;
+    width: 2px;
+    left: -40px;
+    
+}
+
+.item2{
+    position: relative;
+    margin-left: 70px;
+    max-width: 620px;
+} 
+
+.item2::before{
+    content: "";
+    background-color: rgba(173, 170, 170, 0.425);
+    position: absolute;
+    min-height: 100%;
+    width: 2px;
+    left: -40px;
+    
+}
