@@ -16,7 +16,7 @@ function BoxInteractive() {
 
     const [Array, setArray] = useState([
         {
-            ProfileImg: "/public/assets/images/1.png",
+            ProfileImg: "/assets/images/1.png",
             UserName: "amyrobson",
             Date: "1 month ago",
             Text: "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well",
@@ -28,7 +28,7 @@ function BoxInteractive() {
         },
 
         {
-            ProfileImg: "/public/assets/images/3.png",
+            ProfileImg: "/assets/images/3.png",
             UserName: "maxblagun",
             createdAt: "Just now",
             Date: "2 week ago",
@@ -42,7 +42,7 @@ function BoxInteractive() {
 
         {
 
-            ProfileImg: "/public/assets/images/4.png",
+            ProfileImg: "/assets/images/4.png",
             UserName: "ramsesmiron",
             Date: "1 week ago",
             Text: "If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before consid ering React. It's very tempting to jump ahead but lay a solid foundation first.",
@@ -57,7 +57,7 @@ function BoxInteractive() {
 
         {
 
-            ProfileImg: "/public/assets/images/2.png",
+            ProfileImg: "/assets/images/2.png",
             UserName: "juliusomo",
             Date: "1 days ago",
             Text: "I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.",
@@ -196,7 +196,6 @@ function BoxInteractive() {
                     return comment;
 
                 })
-                //   console.log(newArrayCommentsAfterUpdate)
                 post = { ...post, comments: newArrayCommentsAfterUpdate }
             }
             return post;
@@ -241,7 +240,6 @@ function BoxInteractive() {
 
 
 
-            {/* {deletemodel.isLoading && <Deletebox onDeletbox={youwantdelete} message={deletemodel.message}></Deletebox>} */}
 
 
 
@@ -255,237 +253,3 @@ export default BoxInteractive
 
 
 
-// <BoxInteractiveItem
-// key={item.id} 
-// UserName={item.UserName} 
-// ProfileImg={item.ProfileImg}
-// Date={item.Date} 
-//  Text={item.Text}>
-
-
-
-// </BoxInteractiveItem>
-
-
-{/* <div className="Boxs">
-
-
-<div className="Box">
-
-    <div className="counter">
-
-        <button className="b">
-            <div>
-                <button onClick={Add} id="btn"><img src={Plus} /> </button>
-            </div>
-            <div>
-                <strong id="count" > {count}</strong>
-            </div>
-            <div>
-                <button onClick={Minus} id='btn'><img src={minus} /></button>
-            </div>
-        </button>
-    </div>
-
-    <div>
-        <div id="title">
-            <img src={Img1} alt="photo" id="img" />
-            <div id="name">
-                <span id="h">amyrobson </span>
-                <span id="s">1 month ago </span>
-            </div>
-
-            <div>
-                <a id="Reply" href="#">  <img src={Iconreply} alt="photo" id="icon" /> Reply</a>
-            </div>
-
-
-        </div>
-        <div>
-            <p id="para1">Impressive! Though it seems the drag feature could be improved. But overall it 
-                looks incredible. You've nailed the design and the responsiveness at various 
-                breakpoints works really well</p>
-        </div>
-
-    </div>
-</div>
-
-<div className="Box">
-
-    <div className="Button">
-
-        <button className="b">
-            <div>
-                <button onClick={Add1} id="btn"><img src={Plus} /> </button>
-            </div>
-            <div>
-                <strong id="count" > {count1}</strong>
-            </div>
-            <div>
-                <button onClick={Minus1} id='btn'><img src={minus} /></button>
-            </div>
-        </button>
-    </div>
-
-    <div>
-        <div id="title">
-            <img src={Img2} alt="photo" id="img" />
-            <div id="name">
-                <span id="h">juliusomo      </span>
-                <span id="s">2 days ago </span>
-            </div>
-
-            <div>
-                <a id="Reply" href="#">  <img src={Iconreply} alt="photo" id="icon" /> Reply</a>
-            </div>
-
-
-        </div>
-        <div>
-            <p id="para1">Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!</p>
-        </div>
-
-    </div>
-</div>
-
-<div className="Box">
-
-    <div className="Button">
-
-        <button className="b">
-            <div>
-                <button onClick={Add} id="btn"><img src={Plus} /> </button>
-            </div>
-            <div>
-                <strong id="count" > {count}</strong>
-            </div>
-            <div>
-                <button onClick={Minus} id='btn'><img src={minus} /></button>
-            </div>
-        </button>
-    </div>
-
-    <div>
-        <div id="title">
-            <img src={Img3} alt="photo" id="img" />
-            <div id="name">
-                <span id="h"> maxblagun  </span>
-                <span id="s"> 2 week ago</span>
-            </div>
-
-            <div>
-                <a id="Reply" href="#">  <img src={Iconreply} alt="photo" id="icon" /> Reply</a>
-            </div>
-
-
-        </div>
-        <div>
-            <p id="para1">If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.</p>
-        </div>
-
-    </div>
-</div>
-
-<div className="Box">
-
-    <div className="Button">
-
-        <button className="b">
-            <div>
-                <button onClick={Add} id="btn"><img src={Plus} /> </button>
-            </div>
-            <div>
-                <strong id="count" > {count}</strong>
-            </div>
-            <div>
-                <button onClick={Minus} id='btn'><img src={minus} /></button>
-            </div>
-        </button>
-    </div>
-
-    <div>
-        <div id="title">
-            <img src={Img4} alt="photo" id="img" />
-            <div id="name">
-                <span id="h"> ramsesmiron  </span>
-                <span id="s"> 1 week ago</span>
-            </div>
-
-            <div>
-                <a id="Reply" href="#">  <img src={Iconreply} alt="photo" id="icon" /> Reply</a>
-            </div>
-
-
-        </div>
-        <div>
-            <p id="para1">I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.",
-            "createdAt</p>
-        </div>
-
-    </div>
-</div>
-
-
-
-</div> */}
-
-
-
-
-
-
-
-
-
-// {
-//     ProfileImg: Img1,
-//     UserName: 'amyrobson',
-//     Date: '1 month ago',
-//     Text: "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well",
-//     id: 1,
-//     likes: 0,
-//     createdAt:'Just now',
-//     comments: []
-
-// },
-
-// {
-//     ProfileImg: Img3,
-//     UserName: 'maxblagun',
-//     createdAt:'Just now',
-//     Date: '2 week ago',
-//     Text: "Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!",
-//     id: 2,
-//     likes: 0,
-//     comments: []
-
-
-// },
-
-// {
-
-//     ProfileImg: Img4,
-//     UserName: 'ramsesmiron',
-//     Date: '1 week ago',
-//     Text: "If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.",
-//     id: 3,
-//     likes: 0,
-//     class:'item1',
-//     Mention:'@ramsesmiron',
-//     createdAt:'Just now',
-//     comments: []
-
-// },
-
-// {
-
-//     ProfileImg: Img2,
-//     UserName: 'juliusomo',
-//     Date: '1 days ago',
-//     Text: "I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.",
-//     likes: 0,
-//     class:'item2',
-//     Mention:'@juliusomo',
-//     createdAt:'Just now',
-//     comments: []
-// },

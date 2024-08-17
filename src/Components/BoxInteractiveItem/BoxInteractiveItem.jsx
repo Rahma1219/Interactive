@@ -8,9 +8,7 @@ import Iconreply from '/assets/images/icon-reply.svg'
 import Icondelete from '/assets/images/icon-delete.svg'
 import Counter from '../Counter/Counter';
 import Deletebox from '../DeleteBox/Deletebox';
-// import Deletebox from '../DeleteBox/Deletebox';
 
-// import './BoxInteractive'
 
 
 function BoxInteractiveItem(props) {
@@ -19,24 +17,7 @@ function BoxInteractiveItem(props) {
     const [showboxmodel, setShowboxmodel] = useState(false)
 
     
-    // const [delete, setDelete] = useState(false);
-
-    // const deleteComment = (id, type) => {
-    //     const finalType = type !== undefined ? type : "comment";
-    //     const finalId = id !== undefined ? id : commentData.id;
-    //     commentDelete(finalId, finalType, commentData.id);
-    //     setDeleting(false);
-    //   };
-
-
-
-
-    // //Delete Button
-    // function HandleDelete(id) {
  
-    //      props.deleteItem(event.target.getAttribute("uniqueid"));
-   
-    // }
 
    
 
@@ -51,9 +32,7 @@ function BoxInteractiveItem(props) {
         setshowReplyDiv(false)
     }
 
-    // function deleteBtnClick(){
-    //     setShowboxmodel(true)
-    // }
+ 
     
     function handledelete(){
         setShowboxmodel(true)
@@ -74,7 +53,7 @@ function BoxInteractiveItem(props) {
 
 
             <div className="Boxs">
-                {/* <Deletebox></Deletebox> */}
+
 
                 <div className={props.class}>
 
@@ -92,18 +71,13 @@ function BoxInteractiveItem(props) {
                                     ) : null}
                                     <p id="s">{props.Date} </p>
                                 </div>
-                                {/* 
-                            {textwarning == true ? (
-                                <DeleteWarning></DeleteWarning>
-
-                            ) : null} */}
+                               
 
 
                                 {props.UserName == 'maxblagun' ? (<a
                                     uniqueid={props.UniqueID}
                                     className='DeleteBtns'
                                     onClick={handledelete}
-                                    // onClick={props.HandleDelete}
                                 >
                                     <img src={Icondelete} id='icond' />
                                     Delete
@@ -127,15 +101,7 @@ function BoxInteractiveItem(props) {
 
 
 
-                                {/* {delete && (
-                                           <Deletebox
-                                           setDeleting={setDeleting}
-                                           deleteComment={deleteComment}
-                                           setDeleteModalState={setDeleteModalState}>
-         
-                                         </Deletebox>
-
-                                )} */}
+                               
                          
 
                                
