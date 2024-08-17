@@ -5,7 +5,7 @@ function Newboxmodel(props) {
     return (
         <div id='bgg'>
             <div className='deletemodel'>
-                <h3>Delete comment</h3>
+                <h3 id='titlebox'>Delete comment</h3>
                 <p id='textdeletemes'> Are you sure you want to delete this comment? This will remove the comment and can't be undone.</p>
 
                 <div id='btn2'>
